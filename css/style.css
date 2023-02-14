@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{font-family: 'Work Sans', sans-serif;}
+
+
+/*herobanner */
+.herobanner{
+	background-image: url(../images/banner.jpg);
+	padding: 230px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.herocontent{}
+.herocontent h1{font-weight: 700;
+font-size: 24px;
+line-height: 76px;
+text-align: center;
+color: 000000;
+}
+.herocontent p{font-weight: 700;
+font-size: 24px;
+line-height: 76px;
+text-align: center;
+color: 000000;
+margin: 20px 0 30px;}
+
+.herocontent a{
+	background: #ffffff;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 23px;
+	text-align:right;
+	text-decoration: none;
+	color: #00ac11;
+	padding: 20px 25px;
+	display: inline-block;
+
+}
+
+
+
+/* aboutmesection */
+.aboutmesection{
+	padding: 50px 0;
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;
+}.flex{
+	display: flex;
+align-items: center;
+flex-wrap: wrap;}
+.column2{
+	flex-basis: 50%;
+	max-width: 50%;
+	padding: 15px;
+}
+.padding-right{
+	padding-right: 140px;
+}
+.column2 h2{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	color: #151414;
+}
+.column2 p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	margin: 20px 0;
+	color: #444343;
+}
+.column2 ul{
+	list-style: none;
+}
+.column-2 ul li{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #444343;
+}
+.column2 ul li img{
+	width: 24px;
+	margin-right: 10px;
+}
+
+.column-2 .portfolio{
+	max-width: 100%;
+}
+/** planssection **/
+.planssection{
+	padding: 50px 0;
+	text-align: center;
+}
+.planssection h2{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+	.column-4 {
+		flex-basis: 25%;
+		max-width: 25%;
+	}
+	.column-4 h3{
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 35px;
+		text-align: center;
+		margin: 24px 0 15px;
+		color: #151414;
+	}
+	.column-4 p{
+		font-weight: 500;
+		font-size: 25px;
+		line-height: 29;
+		text-align: center;
+		color: #737272;
+	}
+	.column-4 img{}
+
+
